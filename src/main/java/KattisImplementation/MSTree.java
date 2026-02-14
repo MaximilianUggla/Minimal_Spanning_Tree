@@ -3,7 +3,10 @@ package KattisImplementation;
 import java.io.BufferedWriter;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.PriorityQueue;
+import java.util.Queue;
 
 public class MSTree {
     private final PrintWriter out = new PrintWriter(new BufferedWriter(new OutputStreamWriter(System.out)));

@@ -4,7 +4,8 @@ import java.io.PrintWriter;
 import java.util.*;
 
 public class MSTree {
-    final PrintWriter out = new PrintWriter(new BufferedWriter(new OutputStreamWriter(System.out)));
+    private final PrintWriter out = new PrintWriter(new BufferedWriter(new OutputStreamWriter(System.out)));
+
 
     public void MSTOf(List<Edge>[] edgeMatrix) {
         boolean[] visited = new boolean[edgeMatrix.length];

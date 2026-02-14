@@ -1,3 +1,5 @@
+package KattisImplementation;
+
 public record Edge(int weight, int source, int target) implements Comparable<Edge> {
 
     @Override
